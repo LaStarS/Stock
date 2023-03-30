@@ -1,5 +1,6 @@
 import stocks from "../data";
-import ListStocks from "../components/ListStocks";
+import ListStocks from "./components/ListStocks";
+
 const allStocks = stocks.map((ele, index) => {
   return <ListStocks key={index} {...ele} />;
 });

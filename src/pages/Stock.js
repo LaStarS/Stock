@@ -1,6 +1,7 @@
 import stocks from "../data";
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
+
 export default function Stock(props) {
   const [info, setInfo] = useState(null);
   const { symbol } = useParams();
