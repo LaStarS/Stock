@@ -1,4 +1,4 @@
-import stocks from "data.js";
+// import stocks from "data.js";
 
 // function stockInfo() {
 

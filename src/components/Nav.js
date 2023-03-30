@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import SearchBar from "./searchBar"
 
 function Nav(props) {
   return (

@@ -1,7 +1,7 @@
-import Stocks from "./Stocks";
+import Stock from "./Stock";
 
 export default function ListStocks({ name, symbol, change, lastPrice }) {
   return (
-    <Stocks name={name} symbol={symbol} lastPrice={lastPrice} change={change} />
+    <Stock name={name} symbol={symbol} lastPrice={lastPrice} change={change} />
   );
 }
